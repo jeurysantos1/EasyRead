@@ -1,0 +1,224 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #EAEAEA;
+}
+.Iphone14ProMax7{
+    padding-top: 33px;
+    width: 390px;
+    height: 815px; 
+    padding-bottom: 33px; 
+    padding-left: 51.50px; 
+    padding-right: 51.50px; 
+    background: white; 
+
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+
+    gap: 557px
+    ;
+
+    
+
+}
+
+.Iphone14ProMax3{
+    padding-top: 33px;
+    width: 390px;
+    height: 815px; 
+    padding-bottom: 33px; 
+    padding-left: 51.50px; 
+    padding-right: 51.50px; 
+    background: white; 
+
+    display: flex;
+    flex-direction: column; 
+    
+    align-items: center;
+
+}
+
+.Group1{
+    width: 296.77px;
+    height: 343.04px; 
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    
+}
+
+.Vector1{
+    
+    left:24px;
+}
+.Vector2{
+    padding-bottom: 10px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+.Easyread{
+    color:#4664FC ;
+    font-family: 'Inter', sans-serif;
+     font-family: 'Montserrat', sans-serif;
+}
+.EasyToUnderstandYourMedicalResult{
+    color: black;
+    font-family: 'Inter', sans-serif;
+font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/* Style for screen 2 on the user flow */
+
+.MedicalJargon,.Easyread, .block1 , .DirectStatement, .Easyread{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 1.6;
+   
+}
+.Frame20, .Frame32{
+    width: 100%;
+}
+
+button{
+   width:  372px;
+}
+/* Style for screen 3 on the user flow
+
+.
+
+*/
+.Frame42{
+    padding-bottom: 30px;
+}
+.ToProvideYouABetterInsightToYourPersonalInfo{
+    width: 307.26px; 
+    color: black; 
+    font-size: 18px;  
+    font-weight: 400; 
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    word-wrap: break-word;
+}
+.icon{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 40px;
+    height: 40px;
+
+}
+input::placeholder {
+    padding-left: px;
+    font-size: 16px;
+    
+}
+.userinfo{
+    font-size: 16px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.firstname.p, .communication{
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #D1D1D6;
+    font-weight: 500;
+    position: relative;
+    bottom: 15px;
+    left: 25px;
+}
+/* CSS for radio buttons */
+.GenderLabel {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 10px; /* Adjust the spacing between radio buttons */
+    cursor: pointer; /* Add a pointer cursor on hover */
+}
+
+/* CSS for radio buttons */
+.GenderLabel {
+    display: flex;
+    align-items: center;
+    margin-right: 35px; /* Adjust the spacing between radio buttons */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    border: 2px solid #4664FC; /* Border color for the label */
+    border-radius: 50px; /* Rounded corners for the label */
+    padding: 15px; /* Add padding for better spacing */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.GenderBar {
+    display: none; /* Hide the default radio button */
+}
+
+/* Style for the radio button when it's checked */
+.GenderBar:checked + .GenderLabel {
+    background-color: #4664FC; /* Background color for the checked radio button */
+    color: #EAEAEA; /* Text color when checked */
+}
+
+/* Style for the label text */
+.GenderLabel::after {
+    content: attr(value); /* Display the label text */
+    font-weight: bold; /* Apply font weight */
+    margin-left: 10px; /* Adjust the spacing between the radio button and text */
+}
+
+/* Add a hover effect */
+.GenderLabel:hover {
+    background-color: blue; /* Change the background color on hover */
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+
+.progress-container {
+    width: 200px; /* Adjust the width of the progress bar */
+    height: 24px; /* Adjust the height of the progress bar */
+    background: #f5f5f5;
+    border-radius: 12px; /* Adjust the border radius for rounded corners */
+    position: relative;
+}
+
+.progress-bar {
+    width: 75%; /* Set the progress percentage you want */
+    height: 100%;
+    background: #ff8c00; /* Adjust the progress bar color */
+    border-radius: 12px; /* Match the border radius of the container */
+    transition: width 0.5s ease; /* Add smooth transition animation */
+}
+
+.progress-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #333;
+    font-weight: bold;
+}
+
+
+@keyframes fill-progress {
+    0% {
+        clip: rect(0px, 75px, 150px, 75px);
+    }
+    100% {
+        clip: rect(0px, 150px, 150px, 75px);
+    }
+}
