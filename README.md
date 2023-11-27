@@ -1,7 +1,4 @@
 # EasyRead
-
-<h1>EasyRead</h1>
-<br>
 <br>
 <p>EasyRead is an application aimed at bridging the communication gap between medical records and patients by utilizing Generative AI technology to translate complex medical jargon into easily understandable language for patients without a medical background.</p>
 <br>
